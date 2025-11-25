@@ -7,6 +7,23 @@ npj Quantum Information, 2025.
 
 The project provides a quantum machine learning version of graphon learning and includes the full training and evaluation pipeline.
 
+
+## Requirements
+
+This code depends on the following Python packages:
+
+- `torch==2.0.0`  
+- `torchquantum==0.1.7`  
+- `qiskit==0.38.0`  
+- `POT==0.9.4`  
+- `einops==0.8.1`  
+- `numpy`  
+- `pickle`  
+- `argparse`  
+- `os`  
+
+
+
 ## Usage
 
 Run training with:
@@ -49,5 +66,5 @@ The dataset is provided as a zip file and must be extracted before use.
 
 ## Acknowledgement
 
-This repository is a quantum machine learning extension based on: https://github.com/Mishne-Lab/IGNR
+This repository is a quantum machine learning extension based on IGNR: https://github.com/Mishne-Lab/IGNR
 
